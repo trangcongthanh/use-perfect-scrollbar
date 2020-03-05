@@ -11,7 +11,7 @@ Heavily inspired by [react-perfect-scrollbar](https://github.com/goldenyz/react-
 ## Example
 ```js
 import React from 'react'
-import { usePerfectScrollbar } from 'user-perfect-scrollbar'
+import { usePerfectScrollbar } from 'use-perfect-scrollbar'
 
 export const Component = () => {
   const ref = React.useRef(null)
