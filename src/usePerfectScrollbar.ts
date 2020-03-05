@@ -66,4 +66,6 @@ export const usePerfectScrollbar = <T extends Element>({
       onUpdate(ps)
     }
   })
+
+  return ps
 }
