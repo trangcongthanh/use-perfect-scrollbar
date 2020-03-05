@@ -1,6 +1,16 @@
 {
   "name": "use-perfect-scrollbar",
+  "description": "A perfect-scrollbar hook",
   "version": "1.0.0",
+  "author": "Thanh Trang <trangcongthanh91@gmail.com>",
+  "keywords": ["scrollbar", "perfect-scrollbar", "react", "react hook", "perfect-scrollbar hook"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trangcongthanh/use-perfect-scrollbar"
+  },
+  "bugs": {
+    "url": "https://github.com/trangcongthanh/use-perfect-scrollbar/issues"
+  },
   "main": "./lib/index.js",
   "typings": "./lib/index.d.ts",
   "license": "MIT",
