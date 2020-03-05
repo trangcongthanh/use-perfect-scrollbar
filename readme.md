@@ -45,5 +45,6 @@ export const Component = () => {
 
 ## FAQs
 1. I wanna manual update perfect-scrollbar
+
 The hook will return current instance of perfect-scrollbar. You can manually call `ps.update()` anywhere.
 
