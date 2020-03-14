@@ -1,6 +1,6 @@
 import React from 'react'
 import PerfectScrollbar from 'perfect-scrollbar'
-import 'perfect-scrollbar/css/perfect-scrollbar.css'
+import './perfect-scrollbar.css'
 
 const listenerMapping: Record<string, string> = {
   onScrollY: 'ps-scroll-y',
