@@ -18,7 +18,9 @@
     "start": "tsc -w",
     "build": "tsc",
     "clean": "shx rm -rf lib",
-    "prebuild": "yarn clean"
+    "prebuild": "yarn clean",
+    "postbuild": "yarn assets",
+    "assets": "shx cp ./src/perfect-scrollbar.css ./lib/perfect-scrollbar.css"
   },
   "peerDependencies": {
     "perfect-scrollbar": "^1.5.0",
